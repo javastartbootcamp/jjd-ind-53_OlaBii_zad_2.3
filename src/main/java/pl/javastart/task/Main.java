@@ -7,13 +7,13 @@ public class Main {
         drink1.name = "Sex on the beach";
         drink1.price = 23.5;
         drink1.withAlcohol = true;
-        drink1.ingridient1 = new Ingridient1();
+        drink1.ingridient1 = new Ingridient();
         drink1.ingridient1.name = "Tequila";
         drink1.ingridient1.quantity = 250.0;
-        drink1.ingridient2 = new Ingridient2();
+        drink1.ingridient2 = new Ingridient();
         drink1.ingridient2.name = "woda gazowana";
         drink1.ingridient2.quantity = 250.0;
-        drink1.ingridient3 = new Ingridient3();
+        drink1.ingridient3 = new Ingridient();
         drink1.ingridient3.name = "syrop malinowy";
         drink1.ingridient3.quantity = 0.50;
         double capacity = drink1.ingridient1.quantity + drink1.ingridient2.quantity + drink1.ingridient3.quantity;
@@ -28,8 +28,6 @@ public class Main {
                         "Pojemność: %.1fml",
                 drink1.name, drink1.price, drink1.withAlcohol, drink1.ingridient1.name, drink1.ingridient2.name,
                 drink1.ingridient3.name, capacity);
-
-
     }
 }
 //

@@ -4,7 +4,7 @@ public class Drink {
     String name;
     double price;
     boolean withAlcohol;
-    Ingridient1 ingridient1;
-    Ingridient2 ingridient2;
-    Ingridient3 ingridient3;
+    Ingridient ingridient1;
+    Ingridient ingridient2;
+    Ingridient ingridient3;
 }

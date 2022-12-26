@@ -1,6 +1,6 @@
 package pl.javastart.task;
 
-public class Ingridient3 {
+public class Ingridient {
     String name;
     double quantity;
 }
